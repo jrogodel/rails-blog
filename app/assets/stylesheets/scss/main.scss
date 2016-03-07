@@ -1,0 +1,40 @@
+@import "normalize";
+@import "vars";
+@import "typography";
+@import "header";
+@import "footer";
+@import "welcome";
+@import "article-projects";
+@import "pagination";
+@import "contact";
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding: 3.5rem 0;
+}
+
+.wrapper_skinny {
+	width: 80%;
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+.wrapper_padding {
+	padding: 4rem 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
