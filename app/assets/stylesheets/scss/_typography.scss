@@ -47,6 +47,14 @@ p, ul, ol {
 	padding: 3rem 0;
 }
 
+.link {
+	text-decoration: none;
+	color: $dark;
+	&:hover {
+		color: $highlight;
+	}
+}
+
 hr {
 	width: 3rem;
 	display: block;
