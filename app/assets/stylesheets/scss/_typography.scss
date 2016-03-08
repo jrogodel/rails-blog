@@ -49,6 +49,7 @@ p, ul, ol {
 
 .link {
 	text-decoration: none;
+	margin: 0 .5rem 0 0;
 	color: $dark;
 	&:hover {
 		color: $highlight;
@@ -60,6 +61,6 @@ hr {
 	display: block;
 	height: 2px;
 	border: 0;
-	border-top: 2px solid $highlight;
+	border-top: .3rem solid $highlight;
 	margin: 2rem 0;
 }

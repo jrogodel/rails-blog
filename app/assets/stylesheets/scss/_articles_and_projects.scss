@@ -18,8 +18,19 @@
 					}
 			}
 		}
-		hr {
-			margin: 3rem auto;
+	}
+}
+
+#post_show_content {
+	header {	
+		text-align: center;
+		.date {
+			font-size: .9rem;
+			color: $light;
+			margin: 0;
+		}
+		h1	{
+			margin: 0;
 		}
 	}
 }
